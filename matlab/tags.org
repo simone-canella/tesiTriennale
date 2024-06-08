@@ -1,0 +1,6 @@
+* 0.0.0
+guadagno molla/smorzatore esterni al sistema
+* 1.0.0
+implementato blocco di sistema
+retroazione esterna al blocco di sistema
+aggiunto osservatore Luenberger
