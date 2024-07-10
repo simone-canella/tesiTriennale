@@ -2,9 +2,9 @@
 % system's parameters:
 % --------------------
 
-M = 5 % massa
-K = 5 % costante elastica
-S = 5 % costante smorzatore
+M = 50 % massa
+K = 0.02 % costante elastica
+S = 0.02 % costante smorzatore
 
 % --------------------
 % desired eigenvalues
@@ -34,8 +34,8 @@ dimx = size(A,1)  % quindi dimx = 2
 dimu = size(B,2)  % quindi dimu = 1
 dimy = size(C,1)  % quindi dimy = 2
 
-x0 = [5; % posizione iniziale
-      2] % velocità iniziale
+x0 = [100; % posizione iniziale
+      100] % velocità iniziale
 
 % --------------------
 % certainty-equivalence state-feedback controller
