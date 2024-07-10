@@ -34,7 +34,7 @@ dimx = size(A,1)  % quindi dimx = 2
 dimu = size(B,2)  % quindi dimu = 1
 dimy = size(C,1)  % quindi dimy = 2
 
-x0 = [100; % posizione iniziale
+x0 = [20; % posizione iniziale
       100] % velocità iniziale
 
 % --------------------

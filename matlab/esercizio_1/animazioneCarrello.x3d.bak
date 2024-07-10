@@ -10,7 +10,7 @@
 <Transform DEF='cart'  translation='0.600001 -2.75671e-06 -1.19209e-07'>
   <Shape>
     <Appearance>
-      <Material diffuseColor='0 0 1' emissiveColor='0 0 1'>
+      <Material diffuseColor='0.8 0.405114 0.600878' emissiveColor='0.35 0.0419005 0.0282541'>
       </Material>
     </Appearance>
     <Box size='4 2 2'>
@@ -19,7 +19,7 @@
   <Transform DEF='wheel2_posterior'  translation='-1.5 -1 -0.5'>
     <Shape>
       <Appearance>
-        <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
+        <Material diffuseColor='0.620912 0.504314 0.8' emissiveColor='0.023759 0.0217032 0.05'>
         </Material>
       </Appearance>
       <Sphere radius='0.35'>
@@ -29,7 +29,7 @@
   <Transform DEF='wheel1_posterior'  translation='-1.5 -1 0.5'>
     <Shape>
       <Appearance>
-        <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
+        <Material diffuseColor='0.673415 0.503448 1' emissiveColor='0.04 0.04 0.04'>
         </Material>
       </Appearance>
       <Sphere radius='0.35'>
@@ -39,7 +39,7 @@
   <Transform DEF='wheel1_anterior'  translation='1.5 -1 0.5'>
     <Shape>
       <Appearance>
-        <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
+        <Material>
         </Material>
       </Appearance>
       <Sphere radius='0.35'>
@@ -49,7 +49,7 @@
   <Transform DEF='wheel2_anterior'  translation='1.5 -1 -0.5'>
     <Shape>
       <Appearance>
-        <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
+        <Material>
         </Material>
       </Appearance>
       <Sphere radius='0.35'>
