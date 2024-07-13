@@ -1,4 +1,6 @@
 *~
 *.autosave
 *.bak
-
+*.png
+*.thumbnail
+*.slxc
