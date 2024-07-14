@@ -28,29 +28,6 @@ dimu = size(B,2) % B column [numero colonne matrice "B"]
 dimy = size(C,1) % C row [numero righe matrice "C"]
 
 %--------------------
-%LUENBERGER OBSERVATOR [osservatore di Luenberger]
-%--------------------
-
-%z_dot = A z + B u + H (y - C z)
-
-%approximate plant
-
-delta_A = 0*A; % measurement error [errore di misura]
-delta_B = 0*B; % measurement error [errore di misura]
-delta_C = 0*C; % measurement error [errore di misura]
-A_hat = A + delta_A; 
-B_hat = B + delta_B;
-C_hat = C + delta_C;
-
-A_lu = A_hat-H*C_hat 
-
-B_lu = [B_hat H]
-
-C_lu = eye(size(A_hat))
-
-D_lu = zeros(size(C_lu,1),size(B_lu,2))
-
-%--------------------
 %INITIAL CONDITIONS SYSTEM(state) AND OBSERVER(estimated state) [condizioni iniziali sistema e osservatore]
 %--------------------
 
@@ -82,10 +59,28 @@ H=place(A',C',eig_H)'
 
 K=place(A,B,eig_K)
 
-%certainty-equivalence state-feedback controller
+%--------------------
+%LUENBERGER OBSERVATOR [osservatore di Luenberger]
+%--------------------
 
+%z_dot = A z + B u + H (y - C z)
 
+%approximate plant
 
+delta_A = 0*A; % measurement error [errore di misura]
+delta_B = 0*B; % measurement error [errore di misura]
+delta_C = 0*C; % measurement error [errore di misura]
+A_hat = A + delta_A; 
+B_hat = B + delta_B;
+C_hat = C + delta_C;
+
+A_lu = A_hat-H*C_hat 
+
+B_lu = [B_hat H]
+
+C_lu = eye(size(A_hat))
+
+D_lu = zeros(size(C_lu,1),size(B_lu,2))
 
 %--------------------
 %TO REVIEW [da controllare]
