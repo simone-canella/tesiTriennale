@@ -1,0 +1,138 @@
+#VRML V2.0 utf8
+# Created with V-Realm Builder v2.0
+# Integrated Data Systems Inc.
+# www.ids-net.com
+
+SpotLight {
+  radius 103
+  location 0 9.9 0
+  cutOffAngle 0.79
+  beamWidth 1.57
+  ambientIntensity 0.2
+}
+Background {
+  skyColor [
+    1 0.974571 0.954366,
+    1 0.971138 0.992785,
+    0.989796 0.979592 1,
+    0.831429 0.822857 0.84 
+  ]
+  skyAngle [0.1, 1.2, 1.57]
+  groundColor [
+    0.753822 0.8 0.765366,
+    0.82 0.808167 0.772667,
+    0.938776 1 1,
+    0.571399 0.577463 0.67 
+  ]
+  groundAngle [0.9, 1.5, 1.57]
+}
+DEF Base Transform {
+  translation 0 -0.6 -0
+  children Shape {
+    appearance Appearance {
+      texture DEF Marble_Blue ImageTexture {
+        url "texture/Marble3.jpg" 
+      }
+      material Material {
+      }
+    }
+    geometry Box {
+      size 100 -0.1 1
+    }
+  }
+}
+DEF cart Transform {
+  translation 0.6 -2.7567e-06 -1.1921e-07
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          emissiveColor 0 0.8 0.2
+          diffuseColor 0 0.6 0.2
+        }
+      }
+      geometry Box {
+        size 2 0.6 1.5
+      }
+    }
+    DEF wheel_posterior Transform {
+      translation -0.6 -0.3 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            emissiveColor 0.023759 0.021703 0.05
+            diffuseColor 0 1 0.8
+          }
+        }
+        geometry Sphere {
+          radius 0.27
+        }
+      }
+    }
+    DEF wheel_anterior Transform {
+      translation 0.6 -0.3 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            emissiveColor 0.023759 0.0217032 0.05
+            diffuseColor 0 1 0.8
+          }
+        }
+        geometry Sphere {
+          radius 0.27
+        }
+      }
+    }
+    DEF joint Transform {
+      translation -1.1921e-07 0 0.9
+      rotation 0 0 -1 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              specularColor 0.24 0.24 0.24
+              emissiveColor 0.0248349 0.0196505 0.13
+              diffuseColor 0.247946 0.64 0.627525
+            }
+          }
+          geometry Sphere {
+            radius 0.16
+          }
+        }
+        DEF rod Transform {
+          translation 0.0134005 1.5176 -0.0189999
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  specularColor 0.2 0.2 0.2
+                  emissiveColor 0.1 0.1 0.1
+                  diffuseColor 0.255231 0.29816 0.59
+                }
+              }
+              geometry Cylinder {
+                radius 0.05
+                height 3.2
+              }
+            }
+            DEF mass Transform {
+              translation 0 1.5 0
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    specularColor 0.223639 0.0770905 0.51
+                    emissiveColor 0.08482 0.127465 0.13
+                    diffuseColor 0.54366 0.921625 1
+                  }
+                }
+                geometry Sphere {
+                  radius 0.23
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
