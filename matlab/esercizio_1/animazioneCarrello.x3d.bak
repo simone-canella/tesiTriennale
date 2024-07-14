@@ -59,13 +59,13 @@
 </Transform>
 <Background groundAngle='0.9 1.5 1.57' groundColor='0 0.8 0 0.174249 0.82 0.187362 0.467223 0.82 0.445801 0.621997 0.67 0.600279' skyAngle='0.1 1.2 1.57' skyColor='0.76238 0.8 0.1427 0.277798 0.219779 0.7 0.222549 0.390234 0.7 0.60094 0.662637 0.69'>
 </Background>
-<Transform DEF='base'  translation='43.9 -1.5 0'>
+<Transform DEF='base'  translation='493.9 -1.5 0'>
   <Shape>
     <Appearance>
       <Material>
       </Material>
     </Appearance>
-    <Box size='100 0.2 10'>
+    <Box size='1000 0.2 10'>
     </Box>
   </Shape>
 </Transform>
