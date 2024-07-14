@@ -47,7 +47,7 @@ DEF cart Transform {
     Shape {
       appearance Appearance {
         material Material {
-          emissiveColor 0 0.8 0.2
+          emissiveColor 0 0.6 0
           diffuseColor 0 0.6 0.2
         }
       }
