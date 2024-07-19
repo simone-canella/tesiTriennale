@@ -136,3 +136,13 @@ DEF cart Transform {
     }
   ]
 }
+DEF frontal_view Viewpoint {
+  description "frontal view"
+  position 0 0 19
+  orientation 0 1 0 0
+}
+DEF _3/4_view Viewpoint {
+  description "3/4 view"
+  position -4.776682 0 17.5224
+  orientation 0 -1 -0 0.3
+}
