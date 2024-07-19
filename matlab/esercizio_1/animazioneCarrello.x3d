@@ -7,7 +7,7 @@
 <!--Integrated Data Systems Inc.-->
 <!--www.ids-net.com-->
 <Scene>
-<Transform DEF='cart'  translation='0.600001 -2.75671e-06 -1.19209e-07'>
+<Transform DEF='cart'  translation='0.006355743 -2.75671e-06 -1.19209e-07'>
   <Shape>
     <Appearance>
       <Material diffuseColor='0 0 1' emissiveColor='0 0 1'>
@@ -79,5 +79,7 @@
     </Box>
   </Shape>
 </Transform>
+<Viewpoint DEF='frontal_view'  description='frontal view' position='0 0 40' orientation='0 1 0 0'>
+</Viewpoint>
 </Scene>
 </X3D>
