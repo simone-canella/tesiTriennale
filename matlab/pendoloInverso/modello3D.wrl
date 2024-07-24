@@ -42,7 +42,6 @@ DEF Base Transform {
   }
 }
 DEF cart Transform {
-  translation 0.6 -2.7567e-06 -1.1921e-07
   children [
     Shape {
       appearance Appearance {
@@ -84,8 +83,8 @@ DEF cart Transform {
       }
     }
     DEF joint Transform {
-      translation -1.1921e-07 0 0.9
-      rotation 0 0 -1 3.14159
+      translation 0 0 0.9
+      rotation 0 0 -1 0
       children [
         Shape {
           appearance Appearance {
@@ -145,4 +144,71 @@ DEF _3/4_view Viewpoint {
   description "3/4 view"
   position -4.776682 0 17.5224
   orientation 0 -1 -0 0.3
+}
+DEF grid Transform {
+  translation 0 -1.1 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.2 1 1
+      }
+    }
+    DEF position_10 Transform {
+      translation 10 0 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 0 0 0
+          }
+        }
+        geometry Box {
+          size 0.2 1 1
+        }
+      }
+    }
+    DEF position_-10 Transform {
+      translation -10 0 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 0 0 0
+          }
+        }
+        geometry Box {
+          size 0.2 1 1
+        }
+      }
+    }
+    DEF position_20 Transform {
+      translation 20 0 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 0 0 0
+          }
+        }
+        geometry Box {
+          size 0.2 1 1
+        }
+      }
+    }
+    DEF position_-20 Transform {
+      translation -20 0 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 0 0 0
+          }
+        }
+        geometry Box {
+          size 0.2 1 1
+        }
+      }
+    }
+  ]
 }
