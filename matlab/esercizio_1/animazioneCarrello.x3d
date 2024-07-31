@@ -7,7 +7,7 @@
 <!--Integrated Data Systems Inc.-->
 <!--www.ids-net.com-->
 <Scene>
-<Transform DEF='cart'  translation='0.006355743 -2.75671e-06 -1.19209e-07'>
+<Transform DEF='cart'  translation='60 -2.7567e-06 0'>
   <Shape>
     <Appearance>
       <Material diffuseColor='0 0 1' emissiveColor='0 0 1'>
@@ -78,8 +78,48 @@
     <Box size='0.2 10 10'>
     </Box>
   </Shape>
+  <Transform DEF='wall_joint' >
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.5'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_1'  translation='2.5 0 0'>
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='5 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='rod_2'  translation='10 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='10 0.5 0.5'>
+      </Box>
+    </Shape>
+  </Transform>
+  <Transform DEF='rod_3'  translation='20 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='10 0.5 0.5'>
+      </Box>
+    </Shape>
+  </Transform>
 </Transform>
-<Viewpoint DEF='frontal_view'  description='frontal view' position='0 0 40' orientation='0 1 0 0'>
+<Viewpoint DEF='frontal_view'  description='frontal view' orientation='0 1 0 0' position='0 0 40'>
 </Viewpoint>
 </Scene>
 </X3D>
