@@ -108,6 +108,16 @@
       </Box>
     </Shape>
   </Transform>
+  <Transform DEF='rod_3'  translation='20 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='10 0.5 0.5'>
+      </Box>
+    </Shape>
+  </Transform>
 </Transform>
 <Viewpoint DEF='frontal_view'  description='frontal view' orientation='0 1 0 0' position='0 0 40'>
 </Viewpoint>
