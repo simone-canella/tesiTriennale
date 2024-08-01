@@ -98,7 +98,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_2'  translation='1.801 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_2'  translation='1.667 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -118,7 +118,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_3'  translation='3.602 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_3'  translation='3.333 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -138,7 +138,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_4'  translation='5.403 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_4'  translation='5 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -158,7 +158,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_5'  translation='7.204 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_5'  translation='6.667 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -178,7 +178,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_6'  translation='9.005 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_6'  translation='8.333 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -198,7 +198,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_7'  translation='10.81 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_7'  translation='10 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -218,7 +218,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_8'  translation='12.61 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_8'  translation='11.67 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -238,7 +238,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_9'  translation='14.41 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_9'  translation='13.33 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -258,7 +258,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_10'  translation='16.21 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_10'  translation='15 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -278,7 +278,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_11'  translation='18.01 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_11'  translation='16.67 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -298,7 +298,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_12'  translation='19.81 0 0' rotation='0 0 1 -1.39'>
+  <Transform DEF='joint_12'  translation='18.33 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -318,7 +318,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_13'  translation='21.61 0 0' rotation='0 0 1 1.39'>
+  <Transform DEF='joint_13'  translation='20 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
