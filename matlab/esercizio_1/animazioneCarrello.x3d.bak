@@ -7,52 +7,52 @@
 <!--Integrated Data Systems Inc.-->
 <!--www.ids-net.com-->
 <Scene>
-<Transform DEF='cart'  translation='60 -2.7567e-06 0'>
+<Transform DEF='cart'  translation='60 4 0'>
   <Shape>
     <Appearance>
       <Material diffuseColor='0 0 1' emissiveColor='0 0 1'>
       </Material>
     </Appearance>
-    <Box size='4 2 2'>
+    <Box size='10 8 4'>
     </Box>
   </Shape>
-  <Transform DEF='wheel2_posterior'  translation='-1.5 -1 -0.5'>
+  <Transform DEF='wheel2_posterior'  translation='-4 -4.5 -0.5'>
     <Shape>
       <Appearance>
         <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
         </Material>
       </Appearance>
-      <Sphere radius='0.35'>
+      <Sphere>
       </Sphere>
     </Shape>
   </Transform>
-  <Transform DEF='wheel1_posterior'  translation='-1.5 -1 0.5'>
+  <Transform DEF='wheel1_posterior'  translation='-4 -4.5 0.5'>
     <Shape>
       <Appearance>
         <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
         </Material>
       </Appearance>
-      <Sphere radius='0.35'>
+      <Sphere>
       </Sphere>
     </Shape>
   </Transform>
-  <Transform DEF='wheel1_anterior'  translation='1.5 -1 0.5'>
+  <Transform DEF='wheel1_anterior'  translation='4 -4.5 0.5'>
     <Shape>
       <Appearance>
         <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
         </Material>
       </Appearance>
-      <Sphere radius='0.35'>
+      <Sphere>
       </Sphere>
     </Shape>
   </Transform>
-  <Transform DEF='wheel2_anterior'  translation='1.5 -1 -0.5'>
+  <Transform DEF='wheel2_anterior'  translation='4 -4.5 -0.5'>
     <Shape>
       <Appearance>
         <Material diffuseColor='1 0 0' emissiveColor='1 0 0'>
         </Material>
       </Appearance>
-      <Sphere radius='0.35'>
+      <Sphere>
       </Sphere>
     </Shape>
   </Transform>
@@ -78,7 +78,7 @@
     <Box size='0.2 10 10'>
     </Box>
   </Shape>
-  <Transform DEF='wall_joint' >
+  <Transform DEF='joint_1' >
     <Shape>
       <Appearance>
         <Material>
@@ -98,25 +98,185 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='rod_2'  translation='10 0 0'>
+  <Transform DEF='joint_2'  translation='10 0 0'>
     <Shape>
       <Appearance>
         <Material>
         </Material>
       </Appearance>
-      <Box size='10 0.5 0.5'>
-      </Box>
+      <Sphere radius='0.1'>
+      </Sphere>
     </Shape>
+    <Transform DEF='rod_2' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
   </Transform>
-  <Transform DEF='rod_3'  translation='20 0 0'>
+  <Transform DEF='joint_3'  translation='20 0 0'>
     <Shape>
       <Appearance>
         <Material>
         </Material>
       </Appearance>
-      <Box size='10 0.5 0.5'>
-      </Box>
+      <Sphere radius='0.1'>
+      </Sphere>
     </Shape>
+    <Transform DEF='rod_3' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_4'  translation='30 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_4' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_5'  translation='40 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_5' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_6'  translation='50 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_6' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_7'  translation='60 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_7' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_8'  translation='70 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_8' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_9'  translation='80 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_9' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_10'  translation='90 0 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_10'  translation='-2.5 0 0'>
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='5 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
   </Transform>
 </Transform>
 <Viewpoint DEF='frontal_view'  description='frontal view' orientation='0 1 0 0' position='0 0 40'>
