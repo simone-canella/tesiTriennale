@@ -7,7 +7,7 @@
 <!--Integrated Data Systems Inc.-->
 <!--www.ids-net.com-->
 <Scene>
-<Transform DEF='cart'  translation='60 4 0'>
+<Transform DEF='cart'  translation='0 4 0'>
   <Shape>
     <Appearance>
       <Material diffuseColor='0 0 1' emissiveColor='0 0 1'>
@@ -78,7 +78,7 @@
     <Box size='0.2 10 10'>
     </Box>
   </Shape>
-  <Transform DEF='joint_1' >
+  <Transform DEF='joint_1'  rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -98,7 +98,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_2'  translation='10 0 0'>
+  <Transform DEF='joint_2'  translation='1.801 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -118,7 +118,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_3'  translation='20 0 0'>
+  <Transform DEF='joint_3'  translation='3.602 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -138,7 +138,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_4'  translation='30 0 0'>
+  <Transform DEF='joint_4'  translation='5.403 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -158,7 +158,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_5'  translation='40 0 0'>
+  <Transform DEF='joint_5'  translation='7.204 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -178,7 +178,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_6'  translation='50 0 0'>
+  <Transform DEF='joint_6'  translation='9.005 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -198,7 +198,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_7'  translation='60 0 0'>
+  <Transform DEF='joint_7'  translation='10.81 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -218,7 +218,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_8'  translation='70 0 0'>
+  <Transform DEF='joint_8'  translation='12.61 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -238,7 +238,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_9'  translation='80 0 0'>
+  <Transform DEF='joint_9'  translation='14.41 0 0' rotation='0 0 1 1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -258,7 +258,7 @@
       </Shape>
     </Transform>
   </Transform>
-  <Transform DEF='joint_10'  translation='90 0 0'>
+  <Transform DEF='joint_10'  translation='16.21 0 0' rotation='0 0 1 -1.39'>
     <Shape>
       <Appearance>
         <Material>
@@ -267,7 +267,67 @@
       <Sphere radius='0.1'>
       </Sphere>
     </Shape>
-    <Transform DEF='rod_10'  translation='-2.5 0 0'>
+    <Transform DEF='rod_10' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_11'  translation='18.01 0 0' rotation='0 0 1 1.39'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_11' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_12'  translation='19.81 0 0' rotation='0 0 1 -1.39'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_12' >
+      <Shape>
+        <Appearance>
+          <Material>
+          </Material>
+        </Appearance>
+        <Box size='10 0.5 0.5'>
+        </Box>
+      </Shape>
+    </Transform>
+  </Transform>
+  <Transform DEF='joint_13'  translation='21.61 0 0' rotation='0 0 1 1.39'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Sphere radius='0.1'>
+      </Sphere>
+    </Shape>
+    <Transform DEF='rod_13'  translation='-2.5 0 0'>
       <Shape>
         <Appearance>
           <Material>
