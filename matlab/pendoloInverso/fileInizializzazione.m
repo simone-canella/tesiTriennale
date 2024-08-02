@@ -3,9 +3,12 @@
 %--------------------
 
 M = 0.5         %cart mass [massa del carrello]
+M_nominal = M
 m = 0.1         %sphere mass [massa estremità del asta]
+m_nominal = m
 g = 9,80665     %gravity acceleration [accelerazione gravità]
 L = 0.3         %rod length [lunghezza asta]
+L_nominal = L
 
 %--------------------
 %STATE EQUATIONS [matrici di stato]:
