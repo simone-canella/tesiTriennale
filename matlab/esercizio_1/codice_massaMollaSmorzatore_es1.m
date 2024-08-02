@@ -3,8 +3,14 @@
 % --------------------
 
 M = 50 % massa
+M_nominal = M
 K = 0.02 % costante elastica
+K_nominal = K
 S = 0.02 % costante smorzatore
+S_nominal = S
+
+N = 5 % numero giunti intere molla
+L = 10 % lunghezza giunti
 
 % --------------------
 % desired eigenvalues
