@@ -68,6 +68,56 @@
     <Box size='1000 0.2 10'>
     </Box>
   </Shape>
+  <Transform DEF='origin'  translation='5 -0.5 0'>
+    <Shape>
+      <Appearance>
+        <Material diffuseColor='1 1 0'>
+        </Material>
+      </Appearance>
+      <Box size='0.5 1 2'>
+      </Box>
+    </Shape>
+  </Transform>
+  <Transform translation='-5 -0.5 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='0.5 1 2'>
+      </Box>
+    </Shape>
+  </Transform>
+  <Transform translation='15 -0.5 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='0.5 1 2'>
+      </Box>
+    </Shape>
+  </Transform>
+  <Transform translation='25 -0.5 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='0.5 1 2'>
+      </Box>
+    </Shape>
+  </Transform>
+  <Transform translation='-15 -0.5 0'>
+    <Shape>
+      <Appearance>
+        <Material>
+        </Material>
+      </Appearance>
+      <Box size='0.5 1 2'>
+      </Box>
+    </Shape>
+  </Transform>
 </Transform>
 <Transform DEF='wall'  translation='-20 3.5 0'>
   <Shape>

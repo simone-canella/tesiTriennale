@@ -2,9 +2,15 @@
 % system's parameters:
 % --------------------
 
-M = 5 % massa
-K = 5 % costante elastica
-S = 5 % costante smorzatore
+M = 50 % massa
+M_nominal = M
+K = 0.02 % costante elastica
+K_nominal = K
+S = 0.02 % costante smorzatore
+S_nominal = S
+
+N = 5 % numero giunti intere molla
+L = 10 % lunghezza giunti
 
 % --------------------
 % desired eigenvalues
